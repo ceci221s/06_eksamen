@@ -14,6 +14,7 @@ h1 {
   font-family: "Work Sans", sans-serif;
   font-size: 1.9rem;
   color: #262521;
+  font-weight: 180;
 }
 
 h2 {
@@ -21,12 +22,14 @@ h2 {
   font-size: 1.2rem;
   color: #545454;
   padding-top: 1.5rem;
+  font-weight: 200;
 }
 
 h3 {
   font-family: "Lora", serif;
   font-size: 1rem;
   color: #747474;
+  font-weight: 200;
 }
 
 p {
@@ -72,6 +75,17 @@ ul {
 img {
   width: 100%;
   height: auto;
+}
+
+.knap {
+  background: #cca45f;
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 2rem;
+}
+
+.knap a {
+  color: white;
 }
 
 /* ========================== FOOTER KODER ============================= */
