@@ -12,20 +12,20 @@ main {
 
 h1 {
   font-family: "Work Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #262521;
 }
 
 h2 {
   font-family: "Lora", serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #545454;
   padding-top: 1.5rem;
 }
 
 h3 {
   font-family: "Lora", serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #747474;
 }
 
@@ -68,6 +68,11 @@ ul {
 }
 
 /* ============================== SEKTIONER ============================= */
+
+img {
+  width: 100%;
+  height: auto;
+}
 
 /* ========================== FOOTER KODER ============================= */
 
