@@ -1,10 +1,13 @@
-/* ================ GENERELLE KODER ===================== */
-
+/* ================ GENERELLE KODER =====================  */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
+}
+
+main {
+  margin: 0;
+  padding: 2rem;
+  background-color: #f1ede2;
 }
 
 h1 {
@@ -15,45 +18,138 @@ h1 {
 
 h2 {
   font-family: "Lora", serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #545454;
+  padding-top: 1.5rem;
 }
 
 h3 {
   font-family: "Lora", serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #747474;
 }
 
 p {
   font-family: "Lora", serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: #8e8e8e;
+}
+
+li {
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
   line-height: 1.7rem;
   color: #8e8e8e;
 }
 
 a {
   font-family: "Lora", serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.7rem;
   color: #8e8e8e;
-  /* text-decoration-line: underline; */
+  text-decoration-line: underline;
+}
+
+/* ============================== HEADER & NAV ============================= */
+
+header {
+  background-color: #cee1f6;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  color: #55697e;
 }
 
 /* ============================== SEKTIONER ============================= */
 
-img {
-  width: 400px;
-  height: 400px;
-  object-fit: contain;
+.section_2 {
 }
 
-.menu_projekter {
+.menu_container {
   display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+#section_2 .box {
+  width: 100%;
+  padding-top: 32%;
+  padding-bottom: 32%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section_2 .box div {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+  background: #c4d4e5;
+}
+
+#section_2 .box_1 {
+  background-image: url(../assets/forside/responsivt.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#section_2 .box_2 {
+  background-image: url(../assets/forside/prototype.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#section_2 .box_3 {
+  background-image: url(../assets/forside/pitch.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#section_2 .box_4 {
+  background-image: url(../assets/forside/animation.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#section_2 .box_5 {
+  background-image: url(../assets/forside/pilotprojekt.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#section_2 .box_6 {
+  background-image: url(../assets/forside/redesign.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* ========================== FOOTER KODER ============================= */
 
 footer {
   background-color: #cee1f6;
+  padding: 0.3rem 0.8rem 2.5rem 2rem;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer h3 {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+footer h3,
+li,
+p,
+a {
+  color: #55697e;
 }
