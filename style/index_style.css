@@ -72,9 +72,6 @@ ul {
 
 /* ============================== SEKTIONER ============================= */
 
-.section_2 {
-}
-
 .menu_container {
   display: grid;
   grid-template-columns: 1fr;

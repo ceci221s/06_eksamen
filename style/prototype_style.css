@@ -72,6 +72,33 @@ ul {
 
 /* ============================== SEKTIONER ============================= */
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+.knap1 {
+  background: #c4d4e5;
+  text-align: center;
+  padding: 2rem 4rem 2rem 4rem;
+  margin: 2rem;
+}
+
+.knap1 a {
+  color: white;
+}
+
+.knap2 {
+  background: #e5caac;
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 2rem;
+}
+
+.knap2 a {
+  color: white;
+}
+
 /* ========================== FOOTER KODER ============================= */
 
 footer {
