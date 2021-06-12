@@ -1,0 +1,93 @@
+/* ================ GENERELLE KODER =====================  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0;
+  padding: 2rem;
+  background-color: #f1ede2;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  color: #262521;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+  color: #545454;
+  padding-top: 1.5rem;
+}
+
+h3 {
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+  color: #747474;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: #8e8e8e;
+}
+
+li {
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  line-height: 1.7rem;
+  color: #8e8e8e;
+}
+
+a {
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  line-height: 1.7rem;
+  color: #8e8e8e;
+  text-decoration-line: underline;
+}
+
+/* ============================== HEADER & NAV ============================= */
+
+header {
+  background-color: #cee1f6;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  color: #55697e;
+}
+
+/* ============================== SEKTIONER ============================= */
+
+/* ========================== FOOTER KODER ============================= */
+
+footer {
+  background-color: #cee1f6;
+  padding: 0.3rem 0.8rem 2.5rem 2rem;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer h3 {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+footer h3,
+li,
+p,
+a {
+  color: #55697e;
+}
