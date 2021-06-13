@@ -59,19 +59,44 @@ section {
   margin: 3rem 0 0 0;
 }
 
-/* ============================== HEADER & NAV ============================= */
+/* ============================== HEADER & BURGERMENU ============================= */
 
 header {
   background-color: #cee1f6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 header img {
   width: 100px;
   height: auto;
+  margin: 2rem;
 }
 
 ul {
   list-style-type: none;
+  color: #55697e;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+#menuknap {
+  display: inline-block;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+#menu {
+  transition: transform 0.3s;
+  transform-origin: left;
+}
+
+nav {
+  text-align: right;
+  margin: 0 3rem 0 0;
   color: #55697e;
 }
 
@@ -81,6 +106,11 @@ ul {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
+}
+
+#section_1 img {
+  width: 100%;
+  height: auto;
 }
 
 #section_2 .box {
@@ -166,9 +196,37 @@ a {
     padding: 3rem 10rem 3rem 10rem;
   }
 
+  footer {
+    padding: 3rem 10rem 3rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
   .menu_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+  }
+
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline-block;
+  }
+
+  header {
+    align-items: center;
+  }
+
+  header li {
+    margin-left: 2rem;
   }
 }
