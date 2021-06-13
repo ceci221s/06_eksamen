@@ -21,7 +21,7 @@ h2 {
   font-family: "Lora", serif;
   font-size: 1.2rem;
   color: #545454;
-  padding-top: 1.5rem;
+  padding: 1rem 0 1rem 0;
   font-weight: 200;
 }
 
@@ -37,6 +37,7 @@ p {
   font-size: 0.8rem;
   line-height: 1.5rem;
   color: #8e8e8e;
+  padding: 1rem 0 1rem 0;
 }
 
 li {
@@ -52,6 +53,10 @@ a {
   line-height: 1.7rem;
   color: #8e8e8e;
   text-decoration-line: underline;
+}
+
+section {
+  margin: 3rem 0 0 0;
 }
 
 /* ============================== HEADER & NAV ============================= */
@@ -139,5 +144,9 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+  }
+
+  #section_1 {
+    text-align: center;
   }
 }
