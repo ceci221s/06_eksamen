@@ -95,7 +95,7 @@ img {
 }
 
 .knap a {
-  color: white;
+  color: #55697e;
 }
 
 /* ========================== FOOTER KODER ============================= */
@@ -182,5 +182,9 @@ a {
   #section_7 p {
     text-align: center;
     padding: 0 10rem 0 10rem;
+  }
+
+  .knap {
+    margin: 3rem 20rem 3rem 20rem;
   }
 }

@@ -104,7 +104,7 @@ img {
 }
 
 .knap a {
-  color: white;
+  color: #55697e;
 }
 
 /* ========================== FOOTER KODER ============================= */
@@ -144,7 +144,59 @@ a {
     gap: 1rem;
   }
 
+  h2,
+  h3 {
+    text-align: center;
+  }
+
   #section_1 {
     text-align: center;
+  }
+
+  .section_2_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .section_3_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .section_4_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  #section_5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  #section_5 img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  #section_6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .section_7_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .knap {
+    margin: 2rem 20rem 3rem 20rem;
   }
 }

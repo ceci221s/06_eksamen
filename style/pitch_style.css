@@ -147,4 +147,32 @@ a {
   #section_1 {
     text-align: center;
   }
+
+  .section_2_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  #section_2 h2 {
+    text-align: center;
+  }
+
+  #section_3 h2 {
+    text-align: center;
+  }
+
+  #section_4 h2 {
+    text-align: center;
+  }
+
+  .section_3_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .knap {
+    margin: 0 20rem 3rem 20rem;
+  }
 }
