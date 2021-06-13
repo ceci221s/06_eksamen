@@ -73,7 +73,7 @@ ul {
 /* ============================== SEKTIONER ============================= */
 
 #section_1 img {
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
@@ -96,14 +96,25 @@ ul {
   height: auto;
 }
 
-.section_4_top {
+#section_4 {
   background-color: #a7954b;
 }
 
-.section_4_top p,
-h2,
-h3 {
+#section_4 p {
   color: white;
+}
+
+#section_4 h2 {
+  color: white;
+}
+
+#section_4 h3 {
+  color: white;
+}
+
+#section_5 img {
+  width: 50%;
+  height: auto;
 }
 
 .jobtitel_wrapper {

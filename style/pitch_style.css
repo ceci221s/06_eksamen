@@ -83,6 +83,14 @@ img {
   padding: 0 2rem 2rem 2rem;
 }
 
+#section_3 p {
+  color: white;
+}
+
+#section_3 h2 {
+  color: white;
+}
+
 .knap {
   background: #8ea3c2;
   text-align: center;
