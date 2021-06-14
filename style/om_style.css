@@ -4,6 +4,11 @@
   padding-bottom: 1.5rem;
 }
 
+video {
+  width: 100%;
+  height: auto;
+}
+
 #section_3 img {
   width: 100%;
   height: auto;
