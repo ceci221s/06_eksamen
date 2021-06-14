@@ -75,6 +75,28 @@ ul {
   color: #55697e;
 }
 
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+#menuknap {
+  display: inline-block;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+#menu {
+  transition: transform 0.3s;
+  transform-origin: left;
+}
+
+nav {
+  text-align: right;
+  margin: 0 3rem 0 0;
+  color: #55697e;
+}
+
 /* ============================== SEKTIONER ============================= */
 
 /* ========================== FOOTER KODER ============================= */
@@ -116,5 +138,32 @@ a {
 
   #section_1 {
     text-align: center;
+  }
+
+  .menu_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline-block;
+  }
+
+  header {
+    align-items: center;
+  }
+
+  header li {
+    margin-left: 2rem;
   }
 }
