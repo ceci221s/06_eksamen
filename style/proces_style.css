@@ -1,6 +1,59 @@
 /* ============================== SEKTIONER ============================= */
 
+#section_4 img {
+  width: 50%;
+  height: auto;
+}
+
 /* ================================ MEDIA QUERY ===================================== */
 
 @media screen and (min-width: 600px) {
+  .section_3_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section_4_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+  }
+
+  #section_4 img {
+    margin-left: 4rem;
+  }
+
+  .section_5_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section_6_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section_7_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section_8_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section_9_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section_10_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section_11_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
