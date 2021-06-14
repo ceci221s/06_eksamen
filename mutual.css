@@ -81,7 +81,7 @@ header {
 }
 
 header img {
-  width: 100px;
+  width: 70px;
   height: auto;
   margin: 2rem;
 }
@@ -148,7 +148,7 @@ a {
   footer {
     padding: 3rem 10rem 3rem 10rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 0.5fr 1fr 1fr;
     gap: 1rem;
   }
 

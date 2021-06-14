@@ -20,11 +20,6 @@
   width: 100%;
   padding: 2rem 0 2rem 0;
   text-align: center;
-  background: #cca45fed;
-}
-
-#section_2 p {
-  color: white;
 }
 
 #section_2 h3 {
@@ -35,64 +30,136 @@
   color: white;
 }
 
-#section_2 .box_1 {
+.box_1 {
   background-image: url(../assets/forside/responsivt.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#section_2 .box_2 {
+.box_1 div {
+  background: #4b6db0;
+}
+
+.box_2 {
   background-image: url(../assets/forside/prototype.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#section_2 .box_3 {
+.box_2 div {
+  background: #cca45f;
+}
+
+.box_3 {
   background-image: url(../assets/forside/pitch.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#section_2 .box_4 {
+.box_3 div {
+  background: #e5caac;
+}
+
+.box_4 {
   background-image: url(../assets/forside/animation.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#section_2 .box_5 {
+.box_4 div {
+  background: #c4d4e5;
+}
+
+.box_5 {
   background-image: url(../assets/forside/pilotprojekt.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#section_2 .box_6 {
+.box_5 div {
+  background: #4b6db0;
+}
+
+.box_6 {
   background-image: url(../assets/forside/redesign.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#section_3 .box_7 {
-  background-image: url();
+.box_6 div {
+  background: #a7954b;
+}
+
+.menu_andet {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+#section_3 .box {
+  width: 100%;
+  padding-top: 32%;
+  padding-bottom: 32%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section_3 .box div {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+.box_7 {
+  background-image: url(../assets/forside/om-mig.png);
   background-size: cover;
   background-position: center;
 }
 
-#section_3 .box_8 {
-  background-image: url();
+.box_7 div {
+  background: #e5caac;
+}
+
+.box_8 {
+  background-image: url(../assets/forside/opslagsvaerk.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#section_3 .box_9 {
-  background-image: url();
+.box_8 div {
+  background: #a7954b;
+}
+
+.box_9 {
+  background-image: url(../assets/forside/proces.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.box_9 div {
+  background: #c4d4e5;
+}
+
+#section_3 h3 {
+  color: white;
+}
+
+#section_3 a {
+  color: white;
 }
 
 /* ================================ MEDIA QUERY ===================================== */
 
 @media screen and (min-width: 600px) {
   .menu_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  .menu_andet {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
