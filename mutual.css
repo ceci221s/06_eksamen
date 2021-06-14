@@ -14,6 +14,12 @@ section {
   margin: 3rem 0 0 0;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 /* ========================== FONTE & STYLING =====================  */
 
 h1 {
@@ -60,6 +66,10 @@ a {
   line-height: 1.7rem;
   color: #8e8e8e;
   text-decoration-line: underline;
+}
+
+#section_1 p {
+  text-align: center;
 }
 
 /* ============================== HEADER ============================= */
