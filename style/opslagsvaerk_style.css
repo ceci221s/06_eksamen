@@ -2,40 +2,46 @@
 
 .box {
   padding: 1rem;
-  margin: 0.8rem;
+  margin: 0 0.8rem 1.6rem 0.8rem;
+  transition: all 0.2s ease-in-out;
 }
 
-.box li {
-  color: white;
-}
-
-.box a {
-  color: white;
-  font-weight: 600;
+.box:hover {
+  transform: scale(1.07);
 }
 
 .box_design {
   background-color: #e5caac;
 }
 
+.box_design a {
+  color: #846441;
+  font-weight: 550;
+}
+
 .box_design h3 {
-  color: white;
+  color: #846441;
 }
 
 .box_design p {
-  color: white;
+  color: #846441;
 }
 
 .box_kodning {
   background-color: #bad3ee;
 }
 
+.box_kodning a {
+  color: #3b5b7d;
+  font-weight: 550;
+}
+
 .box_kodning h3 {
-  color: white;
+  color: #3b5b7d;
 }
 
 .box_kodning p {
-  color: white;
+  color: #3b5b7d;
 }
 
 .box_analyse {

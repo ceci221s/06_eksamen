@@ -25,6 +25,12 @@ video {
 
   #section_4 img {
     margin-left: 4rem;
+    transition: all 0.6s ease-in-out;
+  }
+
+  #section_4 img:hover {
+    margin-left: 4rem;
+    transform: rotate(360deg);
   }
 
   .section_5_wrapper {
