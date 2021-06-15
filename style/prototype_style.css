@@ -5,6 +5,14 @@
   padding: 0 2rem 2rem 2rem;
 }
 
+#section_3 h2 {
+  color: #846440;
+}
+
+#section_3 p {
+  color: #846440;
+}
+
 .knap1 {
   background: #c4d4e5;
   text-align: center;
@@ -73,10 +81,10 @@
   }
 
   .knap1 {
-    margin: 0 20rem 3rem 20rem;
+    margin: 0 15rem 3rem 15rem;
   }
 
   .knap2 {
-    margin: 3rem 20rem 2rem 20rem;
+    margin: 3rem 15rem 2rem 15rem;
   }
 }
